@@ -1,0 +1,42 @@
+{
+  "package": "TCW BexDog read-only GIS bridge",
+  "version": "0.1.0",
+  "source_bexdog_version": "1.5.3-compound-orchestration",
+  "original_tcw_files": {
+    "backend/app.py": "028abac34ee0f1d5a5721a32caad1700a57326b94a6e07ba4400ac5f58fd409e",
+    "frontend/index.html": "2defe534ba6608a092d6eb8729ada307c8bab12aea225dca4de67bf4ea347e98",
+    "frontend/app.js": "3af2e2d19f0437c3adfdfbc3b1eaab128c8621629e1899f25dfb428cc8347b0d",
+    "frontend/styles.css": "c67e5284d0ba3e40431f00e0380482b05f8570fc89b583839067b04cae732bee",
+    "retrieval/grounding.py": "f9fdf4b8846b174e7bbbc17aba53c4741894f69c79cab28f4c803dcd31e880d0"
+  },
+  "sdk_dependencies": {
+    "EngineeringAssistantDockpane.xaml.cs": "21f1852a9e621e89a191dbda0f0ada7c3572f173424038c8db31a394235fc0b0",
+    "ArcGisToolService.cs": "6b34bcde14a1d3266dca7251b2f3043e9c912c5fffcc0fe1301baef132cabdbb",
+    "TcwWaterUtilityKnowledgeBase.cs": "56272b3b39255102a2bc8ae195f1f2633aad2d185dc6d33f2d41cc823d9c0753",
+    "ElevationToolService.cs": "bd74bc62784d01a0a0d44db89924613f7564eb87dbd4a0d1285541fab7e05318",
+    "ElevationService.cs": "8e68486ca072c1ee6fbda32853fb1a1f76a769c36bad3308e52aaf180097b043",
+    "TCW_EngineeringAssistant.csproj": "192760b6cbb12b2641cefaa458b4b4b0c53298e78920317917c5f68f46df8bb5",
+    "TcwGdbWorkspaceService.cs": "b450ac7aafd56406c5e0ca00bf8e29d6a3517b99afa22ce6d914f147dd992af9"
+  },
+  "payload_files": {
+    "backend/app.py": "ad9e597afd44d4359c3bbc77f9a59962b5946216a894810dd7f77b6c1f1720db",
+    "backend/gis_bridge.py": "7731ca2bd228233937572d00d822dbaace7b851c0516db63b3fd8623a7cad08d",
+    "backend/gis_service.py": "311004c1aa85729b21333fd2a0273c0942b6db1413dfe83a358d80b4f2170416",
+    "backend/owner_credentials.py": "7170103937c4eb8626011f2cb75b9e235f39a4e3779337072a0ff85bbffbe472",
+    "frontend/index.html": "b782666da1bdc3e9c9bf582ced1616cd0a7c47ef445512f307a3c567ff55c743",
+    "frontend/app.js": "fc0c62af910d46a1174029e101fbd226a980033f037eec5bb9e26aefcdce77ac",
+    "frontend/styles.css": "8c76afb846ef7310730b17614d446023be9adc5d328b61aa1726e14097c5c0e4",
+    "retrieval/grounding.py": "e67571f7eb85eead701e600e7a2b1cada0c6f3ccb6fc5167e30947a199e27073",
+    "scripts/gis_owner.py": "27d4998d308c738250aba2da499428a1c5322268302929a2f1aedb36d6bc69a1",
+    "tests/test_gis_readonly.py": "51721f39bad9dfa455394fb75339785745e225f6ca5f8f1c61f46462ccff333b",
+    "Cancel_BexDog.cmd": "885ebd8155e528245653f319a2fbda4f5cc7f3784ce0e8562c9194918aafac94",
+    "Pause_BexDog.cmd": "fd3a9ee081f2a445a355bbb59d32445109df3a3782c24e1aed5ff59cfd87ca37",
+    "Resume_BexDog.cmd": "64afbd85d137ef87bf6a9509d1c9b0e7d19f09ec04cd43026467063171c77d93",
+    "BexDog_Status.cmd": "2233d17fc1f2e397e36ff75a8cc98a8c3613e124c952e4940e34d0605bba1139"
+  },
+  "sdk_patch_files": {
+    "TcwReadOnlyBridge.cs": "23d4511bbaf6be31f49638d2cdfcbd400c1b3dba327d25f70fc99f21263629b9",
+    "TcwReadOnlyTools.cs": "ea774b2e7f55f00fddc1a794e1368da6207f5b6181c2517490530c7997ef0889"
+  },
+  "source_attachment_sha256": "e095c2cd1f18704218214da2bb53e3f29fe7c255953bfadbe9b62b92a9679c31"
+}

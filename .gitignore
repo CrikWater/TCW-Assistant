@@ -1,0 +1,50 @@
+# Host-only documents, extracted text, indexes and generated evidence.
+**/data/
+**/evidence/
+**/logs/
+**/backups/
+**/config/settings.json
+**/tests/validation_questions.json
+
+# Environments, build outputs and model weights.
+**/.venv/
+**/venv/
+**/__pycache__/
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+*.py[cod]
+**/bin/
+**/obj/
+**/node_modules/
+*.gguf
+*.safetensors
+*.onnx
+*.esriAddinX
+
+# GIS projects, local exports and source bundles stay on the host.
+*.gdb/
+*.aprx
+*.aprx.*
+*.sde
+*.zip
+*.7z
+*.pdf
+*.docx
+*.xlsx
+*.csv
+*.sqlite*
+*.db
+
+# Local credentials and tooling state.
+.env
+.env.*
+*.token
+*.pem
+*.key
+*.pfx
+*.p12
+.vs/
+.idea/
+.DS_Store
+Thumbs.db

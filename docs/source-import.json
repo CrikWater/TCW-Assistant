@@ -1,0 +1,400 @@
+{
+  "import_date": "2026-10-27",
+  "scope": "Selected code/configuration/tests only; private corpus and runtime evidence excluded.",
+  "archives": [
+    {
+      "filename": "TCW_Knowledge_Assistant.zip",
+      "sha256": "ed2f664ec524362e08d63837bcd5db0f8c7539e806a7caab3cb736d3da96f1dd"
+    },
+    {
+      "filename": "TCW_BexDog_ReadOnly_Addon.zip",
+      "sha256": "c0d2ca039979c72adfaedbe22de75b1a85731c5c297f0d1a03b8b5ace743715c"
+    }
+  ],
+  "files": [
+    {
+      "path": "TCW-Knowledge/SETUP-TCW.cmd",
+      "archive": "TCW_Knowledge_Assistant.zip",
+      "archive_path": "TCW-Knowledge/SETUP-TCW.cmd",
+      "source_sha256": "6f8458a10df33d86d0fc2a73bf5cc570e9f1d18933580f1a833b02777f8e7234",
+      "repository_sha256": "6f8458a10df33d86d0fc2a73bf5cc570e9f1d18933580f1a833b02777f8e7234",
+      "unchanged_from_archive": true
+    },
+    {
+      "path": "TCW-Knowledge/START-TCW.cmd",
+      "archive": "TCW_Knowledge_Assistant.zip",
+      "archive_path": "TCW-Knowledge/START-TCW.cmd",
+      "source_sha256": "9f96e38b4a50be374e3731caeb886dc0cd67853a072cbf0195ccd990b2f2758a",
+      "repository_sha256": "9f96e38b4a50be374e3731caeb886dc0cd67853a072cbf0195ccd990b2f2758a",
+      "unchanged_from_archive": true
+    },
+    {
+      "path": "TCW-Knowledge/STOP-TCW.cmd",
+      "archive": "TCW_Knowledge_Assistant.zip",
+      "archive_path": "TCW-Knowledge/STOP-TCW.cmd",
+      "source_sha256": "b123ff01a436d125bbc4e3827f9ecd0710496577ddcfd4c7e24899e0e1008afc",
+      "repository_sha256": "b123ff01a436d125bbc4e3827f9ecd0710496577ddcfd4c7e24899e0e1008afc",
+      "unchanged_from_archive": true
+    },
+    {
+      "path": "TCW-Knowledge/VALIDATE-TCW.cmd",
+      "archive": "TCW_Knowledge_Assistant.zip",
+      "archive_path": "TCW-Knowledge/VALIDATE-TCW.cmd",
+      "source_sha256": "830d92dfdf6bab3611984f7aa3c85dde77d8ca61ffcc798ad87f3d27ec531889",
+      "repository_sha256": "830d92dfdf6bab3611984f7aa3c85dde77d8ca61ffcc798ad87f3d27ec531889",
+      "unchanged_from_archive": true
+    },
+    {
+      "path": "TCW-Knowledge/backend/__init__.py",
+      "archive": "TCW_Knowledge_Assistant.zip",
+      "archive_path": "TCW-Knowledge/backend/__init__.py",
+      "source_sha256": "b43088cd481f08377275d1dc9b61eb6a51d552b84289bccf99535aaf40ae26c4",
+      "repository_sha256": "b43088cd481f08377275d1dc9b61eb6a51d552b84289bccf99535aaf40ae26c4",
+      "unchanged_from_archive": true
+    },
+    {
+      "path": "TCW-Knowledge/backend/app.py",
+      "archive": "TCW_Knowledge_Assistant.zip",
+      "archive_path": "TCW-Knowledge/backend/app.py",
+      "source_sha256": "028abac34ee0f1d5a5721a32caad1700a57326b94a6e07ba4400ac5f58fd409e",
+      "repository_sha256": "028abac34ee0f1d5a5721a32caad1700a57326b94a6e07ba4400ac5f58fd409e",
+      "unchanged_from_archive": true
+    },
+    {
+      "path": "TCW-Knowledge/backend/cli.py",
+      "archive": "TCW_Knowledge_Assistant.zip",
+      "archive_path": "TCW-Knowledge/backend/cli.py",
+      "source_sha256": "58eeddaf9ffc9c00d092c340e78d2f58953e625a9f14a395e8df318843ef19b1",
+      "repository_sha256": "58eeddaf9ffc9c00d092c340e78d2f58953e625a9f14a395e8df318843ef19b1",
+      "unchanged_from_archive": true
+    },
+    {
+      "path": "TCW-Knowledge/backend/config.py",
+      "archive": "TCW_Knowledge_Assistant.zip",
+      "archive_path": "TCW-Knowledge/backend/config.py",
+      "source_sha256": "e8ac352821456389332469fae18e0937b9ea900597c32cec98b876482f4f0636",
+      "repository_sha256": "e8ac352821456389332469fae18e0937b9ea900597c32cec98b876482f4f0636",
+      "unchanged_from_archive": true
+    },
+    {
+      "path": "TCW-Knowledge/backend/inference.py",
+      "archive": "TCW_Knowledge_Assistant.zip",
+      "archive_path": "TCW-Knowledge/backend/inference.py",
+      "source_sha256": "5ee9f9c2231fadea0c3df1856747c5d94c82a6e7b3e297d475dcf55ab9ae009b",
+      "repository_sha256": "5ee9f9c2231fadea0c3df1856747c5d94c82a6e7b3e297d475dcf55ab9ae009b",
+      "unchanged_from_archive": true
+    },
+    {
+      "path": "TCW-Knowledge/backend/service.py",
+      "archive": "TCW_Knowledge_Assistant.zip",
+      "archive_path": "TCW-Knowledge/backend/service.py",
+      "source_sha256": "3997b645e204081bb0ccee4cfbe5bea5fd8916af70cea79b8d79453f82d7bbb7",
+      "repository_sha256": "3997b645e204081bb0ccee4cfbe5bea5fd8916af70cea79b8d79453f82d7bbb7",
+      "unchanged_from_archive": true
+    },
+    {
+      "path": "TCW-Knowledge/config/settings.example.json",
+      "archive": "TCW_Knowledge_Assistant.zip",
+      "archive_path": "TCW-Knowledge/config/settings.example.json",
+      "source_sha256": "0160c3e7854e8a887204216199b105e34aa9a7ed702de94196452c9de4960243",
+      "repository_sha256": "0160c3e7854e8a887204216199b105e34aa9a7ed702de94196452c9de4960243",
+      "unchanged_from_archive": true
+    },
+    {
+      "path": "TCW-Knowledge/frontend/app.js",
+      "archive": "TCW_Knowledge_Assistant.zip",
+      "archive_path": "TCW-Knowledge/frontend/app.js",
+      "source_sha256": "3af2e2d19f0437c3adfdfbc3b1eaab128c8621629e1899f25dfb428cc8347b0d",
+      "repository_sha256": "3af2e2d19f0437c3adfdfbc3b1eaab128c8621629e1899f25dfb428cc8347b0d",
+      "unchanged_from_archive": true
+    },
+    {
+      "path": "TCW-Knowledge/frontend/index.html",
+      "archive": "TCW_Knowledge_Assistant.zip",
+      "archive_path": "TCW-Knowledge/frontend/index.html",
+      "source_sha256": "2defe534ba6608a092d6eb8729ada307c8bab12aea225dca4de67bf4ea347e98",
+      "repository_sha256": "2defe534ba6608a092d6eb8729ada307c8bab12aea225dca4de67bf4ea347e98",
+      "unchanged_from_archive": true
+    },
+    {
+      "path": "TCW-Knowledge/frontend/styles.css",
+      "archive": "TCW_Knowledge_Assistant.zip",
+      "archive_path": "TCW-Knowledge/frontend/styles.css",
+      "source_sha256": "c67e5284d0ba3e40431f00e0380482b05f8570fc89b583839067b04cae732bee",
+      "repository_sha256": "c67e5284d0ba3e40431f00e0380482b05f8570fc89b583839067b04cae732bee",
+      "unchanged_from_archive": true
+    },
+    {
+      "path": "TCW-Knowledge/ingestion/__init__.py",
+      "archive": "TCW_Knowledge_Assistant.zip",
+      "archive_path": "TCW-Knowledge/ingestion/__init__.py",
+      "source_sha256": "245698cbdb381d4a19116c9023b7ccd6329da4f0507a76a53cf385e8f903cfa9",
+      "repository_sha256": "245698cbdb381d4a19116c9023b7ccd6329da4f0507a76a53cf385e8f903cfa9",
+      "unchanged_from_archive": true
+    },
+    {
+      "path": "TCW-Knowledge/ingestion/extract.py",
+      "archive": "TCW_Knowledge_Assistant.zip",
+      "archive_path": "TCW-Knowledge/ingestion/extract.py",
+      "source_sha256": "6a20b83f76f4c2fcb43d6dd76913048b3c9b36ea11daf0a222a1034d6bffe156",
+      "repository_sha256": "6a20b83f76f4c2fcb43d6dd76913048b3c9b36ea11daf0a222a1034d6bffe156",
+      "unchanged_from_archive": true
+    },
+    {
+      "path": "TCW-Knowledge/pytest.ini",
+      "archive": "TCW_Knowledge_Assistant.zip",
+      "archive_path": "TCW-Knowledge/pytest.ini",
+      "source_sha256": "6a96ba0e2d5a8296fb90f474da9d2f0173d3e41eba18965513f711104155f913",
+      "repository_sha256": "6a96ba0e2d5a8296fb90f474da9d2f0173d3e41eba18965513f711104155f913",
+      "unchanged_from_archive": true
+    },
+    {
+      "path": "TCW-Knowledge/requirements.txt",
+      "archive": "TCW_Knowledge_Assistant.zip",
+      "archive_path": "TCW-Knowledge/requirements.txt",
+      "source_sha256": "281f5a5028f2f84bef5e2a23423959e2c755024de6bad1321d590f61fd2d4d6a",
+      "repository_sha256": "281f5a5028f2f84bef5e2a23423959e2c755024de6bad1321d590f61fd2d4d6a",
+      "unchanged_from_archive": true
+    },
+    {
+      "path": "TCW-Knowledge/retrieval/__init__.py",
+      "archive": "TCW_Knowledge_Assistant.zip",
+      "archive_path": "TCW-Knowledge/retrieval/__init__.py",
+      "source_sha256": "9d71edd0539915ad9b72df1703c88c54c41cbbe2a4d0806b06a031c40a576c99",
+      "repository_sha256": "9d71edd0539915ad9b72df1703c88c54c41cbbe2a4d0806b06a031c40a576c99",
+      "unchanged_from_archive": true
+    },
+    {
+      "path": "TCW-Knowledge/retrieval/grounding.py",
+      "archive": "TCW_Knowledge_Assistant.zip",
+      "archive_path": "TCW-Knowledge/retrieval/grounding.py",
+      "source_sha256": "f9fdf4b8846b174e7bbbc17aba53c4741894f69c79cab28f4c803dcd31e880d0",
+      "repository_sha256": "f9fdf4b8846b174e7bbbc17aba53c4741894f69c79cab28f4c803dcd31e880d0",
+      "unchanged_from_archive": true
+    },
+    {
+      "path": "TCW-Knowledge/scripts/Preflight.ps1",
+      "archive": "TCW_Knowledge_Assistant.zip",
+      "archive_path": "TCW-Knowledge/scripts/Preflight.ps1",
+      "source_sha256": "8b6e67ff0856fbce7a6e4ebd5a9741c482330cdf32769ed2d5c4fd8f319524c6",
+      "repository_sha256": "8b6e67ff0856fbce7a6e4ebd5a9741c482330cdf32769ed2d5c4fd8f319524c6",
+      "unchanged_from_archive": true
+    },
+    {
+      "path": "TCW-Knowledge/scripts/Setup.ps1",
+      "archive": "TCW_Knowledge_Assistant.zip",
+      "archive_path": "TCW-Knowledge/scripts/Setup.ps1",
+      "source_sha256": "a3be5243e437124ca50ca0c66c088511bb0ad82ab16805abb5506b028f528356",
+      "repository_sha256": "f9d7f66f7986b1cc7355678801f38fef139ef7fda63b862fe00f2c97db1b6151",
+      "unchanged_from_archive": false
+    },
+    {
+      "path": "TCW-Knowledge/scripts/Start-Ollama.ps1",
+      "archive": "TCW_Knowledge_Assistant.zip",
+      "archive_path": "TCW-Knowledge/scripts/Start-Ollama.ps1",
+      "source_sha256": "bd168ef8a3e04e4e59925155e0eb98b93d647842ef3e6f2c4eddace831c0929c",
+      "repository_sha256": "bd168ef8a3e04e4e59925155e0eb98b93d647842ef3e6f2c4eddace831c0929c",
+      "unchanged_from_archive": true
+    },
+    {
+      "path": "TCW-Knowledge/scripts/Start.ps1",
+      "archive": "TCW_Knowledge_Assistant.zip",
+      "archive_path": "TCW-Knowledge/scripts/Start.ps1",
+      "source_sha256": "67cd6227632f5969cd77c0d8db80a425bbe2746646b9a2872f169343a3d459be",
+      "repository_sha256": "67cd6227632f5969cd77c0d8db80a425bbe2746646b9a2872f169343a3d459be",
+      "unchanged_from_archive": true
+    },
+    {
+      "path": "TCW-Knowledge/scripts/Stop.ps1",
+      "archive": "TCW_Knowledge_Assistant.zip",
+      "archive_path": "TCW-Knowledge/scripts/Stop.ps1",
+      "source_sha256": "1ea2999fc6001254f82847c21700e6282c1e460deed29442e3bcca3a15e56471",
+      "repository_sha256": "1ea2999fc6001254f82847c21700e6282c1e460deed29442e3bcca3a15e56471",
+      "unchanged_from_archive": true
+    },
+    {
+      "path": "TCW-Knowledge/scripts/TCW.ps1",
+      "archive": "TCW_Knowledge_Assistant.zip",
+      "archive_path": "TCW-Knowledge/scripts/TCW.ps1",
+      "source_sha256": "87a74c43ed8e5245f055574c6320d105723a419ef0e31d9849591eb6d364a4cf",
+      "repository_sha256": "87a74c43ed8e5245f055574c6320d105723a419ef0e31d9849591eb6d364a4cf",
+      "unchanged_from_archive": true
+    },
+    {
+      "path": "TCW-Knowledge/scripts/validate_live.py",
+      "archive": "TCW_Knowledge_Assistant.zip",
+      "archive_path": "TCW-Knowledge/scripts/validate_live.py",
+      "source_sha256": "466675b83adf6ef086e4561d0f9162fdb6cfeaa7a4f6fd6ea4ff1239645108e0",
+      "repository_sha256": "6c9e563821904e7ba8aed58ed7b100c32f549c6de0ed193d617408db2b4e2f6a",
+      "unchanged_from_archive": false
+    },
+    {
+      "path": "TCW-Knowledge/tests/test_components.py",
+      "archive": "TCW_Knowledge_Assistant.zip",
+      "archive_path": "TCW-Knowledge/tests/test_components.py",
+      "source_sha256": "3388a27992a1c9a95ad7df864999af57258c2e365a26f82bfdc73fd63df4ae43",
+      "repository_sha256": "90d2e5b2b7cf4e51a60cd442598a4e0290cd9c3c56112728c1b63b6bca8eac19",
+      "unchanged_from_archive": false
+    },
+    {
+      "path": "integrations/TCW_BexDog_ReadOnly_Addon/app_patch/BexDog_Status.cmd",
+      "archive": "TCW_BexDog_ReadOnly_Addon.zip",
+      "archive_path": "TCW_BexDog_ReadOnly_Addon/app_patch/BexDog_Status.cmd",
+      "source_sha256": "2233d17fc1f2e397e36ff75a8cc98a8c3613e124c952e4940e34d0605bba1139",
+      "repository_sha256": "2233d17fc1f2e397e36ff75a8cc98a8c3613e124c952e4940e34d0605bba1139",
+      "unchanged_from_archive": true
+    },
+    {
+      "path": "integrations/TCW_BexDog_ReadOnly_Addon/app_patch/Cancel_BexDog.cmd",
+      "archive": "TCW_BexDog_ReadOnly_Addon.zip",
+      "archive_path": "TCW_BexDog_ReadOnly_Addon/app_patch/Cancel_BexDog.cmd",
+      "source_sha256": "885ebd8155e528245653f319a2fbda4f5cc7f3784ce0e8562c9194918aafac94",
+      "repository_sha256": "885ebd8155e528245653f319a2fbda4f5cc7f3784ce0e8562c9194918aafac94",
+      "unchanged_from_archive": true
+    },
+    {
+      "path": "integrations/TCW_BexDog_ReadOnly_Addon/app_patch/Pause_BexDog.cmd",
+      "archive": "TCW_BexDog_ReadOnly_Addon.zip",
+      "archive_path": "TCW_BexDog_ReadOnly_Addon/app_patch/Pause_BexDog.cmd",
+      "source_sha256": "fd3a9ee081f2a445a355bbb59d32445109df3a3782c24e1aed5ff59cfd87ca37",
+      "repository_sha256": "fd3a9ee081f2a445a355bbb59d32445109df3a3782c24e1aed5ff59cfd87ca37",
+      "unchanged_from_archive": true
+    },
+    {
+      "path": "integrations/TCW_BexDog_ReadOnly_Addon/app_patch/Resume_BexDog.cmd",
+      "archive": "TCW_BexDog_ReadOnly_Addon.zip",
+      "archive_path": "TCW_BexDog_ReadOnly_Addon/app_patch/Resume_BexDog.cmd",
+      "source_sha256": "64afbd85d137ef87bf6a9509d1c9b0e7d19f09ec04cd43026467063171c77d93",
+      "repository_sha256": "64afbd85d137ef87bf6a9509d1c9b0e7d19f09ec04cd43026467063171c77d93",
+      "unchanged_from_archive": true
+    },
+    {
+      "path": "integrations/TCW_BexDog_ReadOnly_Addon/app_patch/backend/app.py",
+      "archive": "TCW_BexDog_ReadOnly_Addon.zip",
+      "archive_path": "TCW_BexDog_ReadOnly_Addon/app_patch/backend/app.py",
+      "source_sha256": "ad9e597afd44d4359c3bbc77f9a59962b5946216a894810dd7f77b6c1f1720db",
+      "repository_sha256": "ad9e597afd44d4359c3bbc77f9a59962b5946216a894810dd7f77b6c1f1720db",
+      "unchanged_from_archive": true
+    },
+    {
+      "path": "integrations/TCW_BexDog_ReadOnly_Addon/app_patch/backend/gis_bridge.py",
+      "archive": "TCW_BexDog_ReadOnly_Addon.zip",
+      "archive_path": "TCW_BexDog_ReadOnly_Addon/app_patch/backend/gis_bridge.py",
+      "source_sha256": "7731ca2bd228233937572d00d822dbaace7b851c0516db63b3fd8623a7cad08d",
+      "repository_sha256": "7731ca2bd228233937572d00d822dbaace7b851c0516db63b3fd8623a7cad08d",
+      "unchanged_from_archive": true
+    },
+    {
+      "path": "integrations/TCW_BexDog_ReadOnly_Addon/app_patch/backend/gis_service.py",
+      "archive": "TCW_BexDog_ReadOnly_Addon.zip",
+      "archive_path": "TCW_BexDog_ReadOnly_Addon/app_patch/backend/gis_service.py",
+      "source_sha256": "311004c1aa85729b21333fd2a0273c0942b6db1413dfe83a358d80b4f2170416",
+      "repository_sha256": "311004c1aa85729b21333fd2a0273c0942b6db1413dfe83a358d80b4f2170416",
+      "unchanged_from_archive": true
+    },
+    {
+      "path": "integrations/TCW_BexDog_ReadOnly_Addon/app_patch/backend/owner_credentials.py",
+      "archive": "TCW_BexDog_ReadOnly_Addon.zip",
+      "archive_path": "TCW_BexDog_ReadOnly_Addon/app_patch/backend/owner_credentials.py",
+      "source_sha256": "7170103937c4eb8626011f2cb75b9e235f39a4e3779337072a0ff85bbffbe472",
+      "repository_sha256": "7170103937c4eb8626011f2cb75b9e235f39a4e3779337072a0ff85bbffbe472",
+      "unchanged_from_archive": true
+    },
+    {
+      "path": "integrations/TCW_BexDog_ReadOnly_Addon/app_patch/frontend/app.js",
+      "archive": "TCW_BexDog_ReadOnly_Addon.zip",
+      "archive_path": "TCW_BexDog_ReadOnly_Addon/app_patch/frontend/app.js",
+      "source_sha256": "fc0c62af910d46a1174029e101fbd226a980033f037eec5bb9e26aefcdce77ac",
+      "repository_sha256": "fc0c62af910d46a1174029e101fbd226a980033f037eec5bb9e26aefcdce77ac",
+      "unchanged_from_archive": true
+    },
+    {
+      "path": "integrations/TCW_BexDog_ReadOnly_Addon/app_patch/frontend/index.html",
+      "archive": "TCW_BexDog_ReadOnly_Addon.zip",
+      "archive_path": "TCW_BexDog_ReadOnly_Addon/app_patch/frontend/index.html",
+      "source_sha256": "b782666da1bdc3e9c9bf582ced1616cd0a7c47ef445512f307a3c567ff55c743",
+      "repository_sha256": "b782666da1bdc3e9c9bf582ced1616cd0a7c47ef445512f307a3c567ff55c743",
+      "unchanged_from_archive": true
+    },
+    {
+      "path": "integrations/TCW_BexDog_ReadOnly_Addon/app_patch/frontend/styles.css",
+      "archive": "TCW_BexDog_ReadOnly_Addon.zip",
+      "archive_path": "TCW_BexDog_ReadOnly_Addon/app_patch/frontend/styles.css",
+      "source_sha256": "8c76afb846ef7310730b17614d446023be9adc5d328b61aa1726e14097c5c0e4",
+      "repository_sha256": "8c76afb846ef7310730b17614d446023be9adc5d328b61aa1726e14097c5c0e4",
+      "unchanged_from_archive": true
+    },
+    {
+      "path": "integrations/TCW_BexDog_ReadOnly_Addon/app_patch/retrieval/grounding.py",
+      "archive": "TCW_BexDog_ReadOnly_Addon.zip",
+      "archive_path": "TCW_BexDog_ReadOnly_Addon/app_patch/retrieval/grounding.py",
+      "source_sha256": "e67571f7eb85eead701e600e7a2b1cada0c6f3ccb6fc5167e30947a199e27073",
+      "repository_sha256": "e67571f7eb85eead701e600e7a2b1cada0c6f3ccb6fc5167e30947a199e27073",
+      "unchanged_from_archive": true
+    },
+    {
+      "path": "integrations/TCW_BexDog_ReadOnly_Addon/app_patch/scripts/gis_owner.py",
+      "archive": "TCW_BexDog_ReadOnly_Addon.zip",
+      "archive_path": "TCW_BexDog_ReadOnly_Addon/app_patch/scripts/gis_owner.py",
+      "source_sha256": "27d4998d308c738250aba2da499428a1c5322268302929a2f1aedb36d6bc69a1",
+      "repository_sha256": "27d4998d308c738250aba2da499428a1c5322268302929a2f1aedb36d6bc69a1",
+      "unchanged_from_archive": true
+    },
+    {
+      "path": "integrations/TCW_BexDog_ReadOnly_Addon/app_patch/tests/test_gis_readonly.py",
+      "archive": "TCW_BexDog_ReadOnly_Addon.zip",
+      "archive_path": "TCW_BexDog_ReadOnly_Addon/app_patch/tests/test_gis_readonly.py",
+      "source_sha256": "51721f39bad9dfa455394fb75339785745e225f6ca5f8f1c61f46462ccff333b",
+      "repository_sha256": "51721f39bad9dfa455394fb75339785745e225f6ca5f8f1c61f46462ccff333b",
+      "unchanged_from_archive": true
+    },
+    {
+      "path": "integrations/TCW_BexDog_ReadOnly_Addon/compatibility.json",
+      "archive": "TCW_BexDog_ReadOnly_Addon.zip",
+      "archive_path": "TCW_BexDog_ReadOnly_Addon/compatibility.json",
+      "source_sha256": "6a99d4c9fd0da8a0a803912f74d69b2d0216ca24f3dc8be71e6f79b2d66223cf",
+      "repository_sha256": "6a99d4c9fd0da8a0a803912f74d69b2d0216ca24f3dc8be71e6f79b2d66223cf",
+      "unchanged_from_archive": true
+    },
+    {
+      "path": "integrations/TCW_BexDog_ReadOnly_Addon/install.py",
+      "archive": "TCW_BexDog_ReadOnly_Addon.zip",
+      "archive_path": "TCW_BexDog_ReadOnly_Addon/install.py",
+      "source_sha256": "3bd79b9cd05a5e386094ec4a0955855b0ed28504f20353370b8c51c99016d929",
+      "repository_sha256": "3bd79b9cd05a5e386094ec4a0955855b0ed28504f20353370b8c51c99016d929",
+      "unchanged_from_archive": true
+    },
+    {
+      "path": "integrations/TCW_BexDog_ReadOnly_Addon/sdk/TcwReadOnlyBridge.cs",
+      "archive": "TCW_BexDog_ReadOnly_Addon.zip",
+      "archive_path": "TCW_BexDog_ReadOnly_Addon/sdk/TcwReadOnlyBridge.cs",
+      "source_sha256": "23d4511bbaf6be31f49638d2cdfcbd400c1b3dba327d25f70fc99f21263629b9",
+      "repository_sha256": "23d4511bbaf6be31f49638d2cdfcbd400c1b3dba327d25f70fc99f21263629b9",
+      "unchanged_from_archive": true
+    },
+    {
+      "path": "integrations/TCW_BexDog_ReadOnly_Addon/sdk/TcwReadOnlyTools.cs",
+      "archive": "TCW_BexDog_ReadOnly_Addon.zip",
+      "archive_path": "TCW_BexDog_ReadOnly_Addon/sdk/TcwReadOnlyTools.cs",
+      "source_sha256": "ea774b2e7f55f00fddc1a794e1368da6207f5b6181c2517490530c7997ef0889",
+      "repository_sha256": "ea774b2e7f55f00fddc1a794e1368da6207f5b6181c2517490530c7997ef0889",
+      "unchanged_from_archive": true
+    },
+    {
+      "path": "integrations/TCW_BexDog_ReadOnly_Addon/tests/SdkBoundaryTests/Program.cs",
+      "archive": "TCW_BexDog_ReadOnly_Addon.zip",
+      "archive_path": "TCW_BexDog_ReadOnly_Addon/tests/SdkBoundaryTests/Program.cs",
+      "source_sha256": "022afc06480b3362b3d3a17a359439ad516662ea2853e051ef7b5932f560edb6",
+      "repository_sha256": "022afc06480b3362b3d3a17a359439ad516662ea2853e051ef7b5932f560edb6",
+      "unchanged_from_archive": true
+    },
+    {
+      "path": "integrations/TCW_BexDog_ReadOnly_Addon/tests/SdkBoundaryTests/SdkBoundaryTests.csproj",
+      "archive": "TCW_BexDog_ReadOnly_Addon.zip",
+      "archive_path": "TCW_BexDog_ReadOnly_Addon/tests/SdkBoundaryTests/SdkBoundaryTests.csproj",
+      "source_sha256": "d4ffd7168e4aab62f8b26cbb8036b4a0a883eee02cf3681617449e094e9edf2f",
+      "repository_sha256": "d4ffd7168e4aab62f8b26cbb8036b4a0a883eee02cf3681617449e094e9edf2f",
+      "unchanged_from_archive": true
+    }
+  ]
+}

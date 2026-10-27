@@ -1,0 +1,3 @@
+# The legacy installer verifies bytes: preserve LF source and archived CRLF launchers.
+* text=auto eol=lf
+integrations/TCW_BexDog_ReadOnly_Addon/app_patch/*.cmd -text

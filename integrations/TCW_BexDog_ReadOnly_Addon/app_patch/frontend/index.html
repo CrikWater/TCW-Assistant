@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TCW · Internal Knowledge Assistant</title><link rel="stylesheet" href="/static/styles.css">
+<script src="/static/app.js" defer></script></head><body>
+<aside><div class="brand"><span class="mark">TCW</span><div>TRI-COUNTY<br><small>Water Conservancy District</small></div></div>
+<p class="side-label">KNOWLEDGE WORKSPACE</p><nav>
+<button class="nav active" data-page="ask">Ask a question</button>
+<button class="nav" data-page="gis">Ask the map</button>
+<button class="nav" data-page="knowledge">Knowledge base</button>
+<button class="nav" data-page="system">System & performance</button></nav>
+<div class="side-note"><span class="dot"></span> Local workstation demo<p>Source-backed answers for authorized management review.</p></div></aside>
+<main><header><div><span class="eyebrow">INTERNAL KNOWLEDGE ASSISTANT</span><p>District information, with the evidence attached.</p></div>
+<span id="ready" class="pill">Checking services…</span></header>
+<div id="notice" class="notice" role="status" hidden></div>
+<div id="working" class="working" role="status" hidden>Processing on the local workstation…</div>
+<section id="page-ask" class="page">
+<div class="hero"><span class="eyebrow">ASK YOUR DOCUMENTS</span><h1>Find the answer.<br>See the source.</h1>
+<p>Ask about the policies, procedures, and dated technical records currently in this knowledge base.</p></div>
+<form id="question-form" class="question-panel"><label for="question">Your question</label>
+<textarea id="question" rows="3" maxlength="2500" placeholder="What would you like to find in the District documents?" required></textarea>
+<div class="form-bottom"><label class="check"><input type="checkbox" id="diagnostics"> Show retrieval diagnostics</label>
+<div><button type="button" id="search-only" class="secondary">Retrieve evidence</button><button id="ask-button" type="submit">Ask local model</button></div></div></form>
+<article id="answer-panel" class="card" hidden><div class="card-heading"><h2>Answer</h2><span id="answer-status" class="pill"></span></div><div id="answer-text" class="answer-text"></div><p id="answer-note" class="muted"></p><div id="timing" class="timing"></div></article>
+<div id="sources"></div><details id="diagnostic-panel" class="card" hidden><summary>Retrieval and prompt diagnostics</summary><pre id="diagnostic-output"></pre></details>
+<p class="footnote">Document answers use indexed sources. Ask the map uses read-only GIS queries. A citation is evidence to inspect; it does not guarantee an answer is correct.</p>
+</section>
+<section id="page-gis" class="page" hidden>
+<div class="hero"><span class="eyebrow">ASK YOUR GIS</span><h1>Ask the map.<br>Inspect the evidence.</h1>
+<p>Ask in your own words. BexDog can read and analyze GIS information without changing features, selections, or topology.</p></div>
+<div class="card"><div class="card-heading"><h2>Read-only connection</h2><button type="button" id="gis-refresh" class="secondary">Check connection</button></div>
+<p id="gis-connection" role="status">Checking the ArcGIS workstation…</p><p id="gis-activity" class="muted" role="status"></p></div>
+<form id="gis-form" class="question-panel"><label for="gis-question">Your GIS question</label>
+<textarea id="gis-question" maxlength="2500" placeholder="For example: How much waterline is in ZIP 81403, broken down by material and diameter?" required></textarea>
+<div class="form-bottom"><span class="muted">Open ArcGIS Pro and BexDog on this workstation.</span><button type="submit">Ask BexDog</button></div></form>
+<article id="gis-answer-panel" class="card" hidden><div class="card-heading"><h2>GIS answer</h2><span id="gis-answer-status" class="pill"></span></div>
+<div id="gis-answer" class="answer-text"></div><p id="gis-answer-note" class="muted"></p><div id="gis-timing" class="timing"></div></article>
+<div id="gis-evidence"></div>
+<details class="card"><summary>Questions to try</summary><ul>
+<li>What is currently selected, by layer?</li><li>How many valves are in the map?</li><li>How much waterline is in ZIP 81403, by material and diameter?</li><li>What waterline was installed in 2025, by county and size?</li><li>Are any TCW_PREVIEW_ID values missing or duplicated?</li><li>What does the evidence show about REGULATOR-96’s terminal assignments?</li>
+</ul><p class="muted">Examples are questions, not stored answers. Results depend on the available map and data.</p></details>
+<p class="footnote">The host can cancel a request and pause new requests. Some ArcGIS reads finish before cancellation takes effect. GIS queries do not update the document index.</p>
+</section>
+<section id="page-knowledge" class="page" hidden><div class="section-top"><div><span class="eyebrow">SOURCE INVENTORY</span><h1>Knowledge base</h1></div><button id="index-startup">Index curated startup corpus</button></div>
+<p>Source dates and review notes stay attached to every answer. The Survey123 record is reserved for the live ingestion test.</p>
+<div class="stats"><div><strong id="doc-count">—</strong><span>Active documents</span></div><div><strong id="chunk-count">—</strong><span>Indexed chunks</span></div><div><strong>Local</strong><span>Embedding and inference target</span></div></div>
+<div id="document-list"></div>
+<details class="card"><summary>Add a reviewed source or replace a document</summary><form id="upload-form">
+<div class="form-grid"><label>Source file<input type="file" name="file" accept=".pdf,.docx,.txt,.md" required></label>
+<label>Document title<input name="title" maxlength="250" required></label><label>Department<input name="department" value="General"></label>
+<label>Version<input name="version" placeholder="Version stated in the document"></label><label>Effective date<input name="effective_date" type="date"></label>
+<label>Replace an existing document<select name="replace_document_id" id="replace-select"><option value="">Create a new document</option></select></label></div>
+<label class="check"><input type="checkbox" name="approved_for_demo" value="true" required> I reviewed this source and it is suitable for this demonstration audience.</label>
+<button type="submit">Upload and index locally</button></form></details>
+<details class="card"><summary>Excluded source candidates</summary><div id="excluded-list"></div></details>
+</section>
+<section id="page-system" class="page" hidden><div class="section-top"><div><span class="eyebrow">LIVE MEASUREMENTS</span><h1>System & performance</h1></div><button id="refresh" class="secondary">Refresh status</button></div>
+<form id="model-form" class="card"><label for="model-choice">Use an installed local answer model</label><select id="model-choice" required></select><button type="submit">Select model</button><p class="muted">Uses the models already on this workstation. Changing the answer model keeps the document embeddings. Run validation before comparing results.</p></form>
+<div id="system-cards" class="system-grid"></div><div class="card"><h2>Recent query measurements</h2><p class="muted">Timings appear only after actual queries. First-token time is the first model content token, before citation checks finish.</p><div id="metrics"></div></div>
+<details class="card"><summary>Full system status</summary><pre id="system-json"></pre></details>
+</section></main></body></html>
